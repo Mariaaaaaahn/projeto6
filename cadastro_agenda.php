@@ -33,7 +33,7 @@ $sql = "INSERT INTO usuario (nome_usuario, email_usuario,
 $sql .= "VALUES ('".$nome."','".$email."','".
                     $telefone."','".$endereco."','".$cidade."','".$estado.'",'".$bairro."')";
 
-                    
+
 echo $sql."<br>";
 $result = mysqli_query($con, $sql);
 if($result)

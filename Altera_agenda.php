@@ -37,6 +37,7 @@
             placeholder="Formato (18) 9999-8888"
             pattern="\([0-9]{2}\)([9]{1})?[0-9]{4-5}-[0-9]{4}"
             value="<?php echo $row['telefone'] ?>">
+
         </div>
         <div>
             <label for="endereco">Endereço</label>
