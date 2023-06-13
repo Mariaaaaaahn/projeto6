@@ -14,7 +14,7 @@ $row = mysqli_fetch_array($result);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alterar Dados</title>
-    <link rel="stylesheet" type="text/css" href="../css/estiloAltera/estilo.css" media="screen" />
+    <link 0 ="stylesheet" type="text/css" href="../css/estiloAltera/estilo.css" media="screen" />
 
 </head>
 
