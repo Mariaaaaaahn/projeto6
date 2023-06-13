@@ -1,36 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="css/estiloIndex/estilo.css" media="screen" />
 </head>
 <body>
-<h3> Pagina Inicial - Projeto Cadastro IFSP</h3>   
-<?php
-if(!empty($_SESSION['login']))
-{
-    echo"<h4>Olá ".$_SESSION['login']['nome_usuario']."</h4>";
-    echo "<a href='logout.php'>Sair</a>";
-
-}
-?>
-
-<hr>
-<ul>
-<?php
-if(empty($_SESSION['login']))
-{
-    echo "<li><a href='login.html'>Login</a></li>";
-}
-?>
-
-
-<LI><a href="cadastro_agenda.html"> Cadastrar</a>  </LI>
-<LI><a href="listar_agenda.php"> Listar</a>  </LI>
-
-</ul>
-
+    <h1 class="titulo">
+        Seja Bem-Vindo(a) a sua agenda virtual! 
+    </h1>
+    <ul class="menu">
+        <li><a href="Pages/cadastro_agenda.html">Cadastrar nova pessoa</a></li>
+        <li><a href="Pages/listar_agenda.php">Listar pessoas cadastrados</a></li>
+    </ul>
 </body>
 </html>
